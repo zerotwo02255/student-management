@@ -59,7 +59,7 @@ console.log(student[2].course);
 */
 
 
-console.log("🎓 Student Management System");
+/* console.log("🎓 Student Management System");
 
 function helllll( name :string ,grade :number){
   console.log(" hello my name is "+ name + "and i have got" + grade);
@@ -68,3 +68,61 @@ function helllll( name :string ,grade :number){
 helllll("ram " ,123);
 helllll("jeff " ,567)
 
+*/
+
+
+{
+/* function add(a:number ,b:number): number{    
+
+
+
+
+  return a+b ;
+
+   }
+
+
+  const total =add(10,20)
+
+   console.log(total);
+
+
+    function getName(): string {
+     return "hari"
+
+    }
+
+   console.log(getName());
+
+*/}
+
+type StudentStatus = "Active" | "Inactive";
+
+type Student = {
+    id: number;
+    name: string;
+    age: number;
+    status: StudentStatus;
+};
+
+const student1: Student = {
+    id: 1,
+    name: "Hari",
+    age: 22,
+    status: "Active",
+};
+
+console.log(student1);
+
+
+type St={
+  id :number;
+  name :string;
+};
+
+const Studnet:St={
+  id:20,
+  name:"lamo sahra"
+};
+
+console.log(Studnet)
