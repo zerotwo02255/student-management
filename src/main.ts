@@ -127,4 +127,6 @@ const Studnet:St={
 
 console.log(Studnet)
 
-console.log(Student)
+console.log(Studnet)
+
+console.log("finally completed")
