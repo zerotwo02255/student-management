@@ -126,3 +126,5 @@ const Studnet:St={
 };
 
 console.log(Studnet)
+
+console.log(Student)
