@@ -25,7 +25,8 @@ addBtn.addEventListener("click", () => {
         course,
         grade,
     };
-
+manager.addStudent(student);
+console.log(manager.getStudentById(student.id));
 console.log(student);
 
 });

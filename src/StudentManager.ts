@@ -10,5 +10,8 @@ export class StudentManager{
     getStudents():Student[]{
         return this.students;
     }
-    
+    getStudentById(id:number):Student | undefined{
+        return this.students.find(student => student.id === id);
+        
+    }
 }
