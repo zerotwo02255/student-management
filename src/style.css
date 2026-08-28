@@ -72,3 +72,21 @@ hr {
 .student-card p {
     margin: 8px 0;
 }
+
+.edit-btn {
+    margin-top: 15px;
+    background: #16a34a;
+}
+
+.edit-btn:hover {
+    background: #15803d;
+}
+
+.delete-btn {
+    margin-top: 10px;
+    background: #dc2626;
+}
+
+.delete-btn:hover {
+    background: #b91c1c;
+}
